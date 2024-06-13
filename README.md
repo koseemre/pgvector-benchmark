@@ -4,7 +4,7 @@
 ```sh
 docker run --cpus=2 -d --name pgvector -e POSTGRES_PASSWORD=xxxx -e PGDATA=pgdata -v pgvector_data:/var/lib/postgresql/data -p 5432:5432 pgvector
 ```
-Set database information in the .env file
+Set your custom database information to the .env file
 ## Create tables
 ```sql
     CREATE TABLE IF NOT EXISTS public.mnist (id bigserial PRIMARY KEY, embedding vector(784));
