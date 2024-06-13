@@ -1,0 +1,6 @@
+datasets
+notebooks
+stats/stats*/
+*/__pycache__/*
+__pycache__/*
+stats/*.json

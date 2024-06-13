@@ -1,0 +1,9 @@
+pandas
+numpy
+pgvector
+nbformat
+plotly
+python-dotenv
+SQLAlchemy
+psycopg2
+typing
