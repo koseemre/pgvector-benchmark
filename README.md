@@ -28,3 +28,8 @@ The script below builds the index (if enabled in the settings), runs the experim
   ```sh
   python process_experiment.py
   ```
+
+## The article of the study
+The comparison results are explained in detail in the article below:
+
+https://medium.com/@emreks/comparing-ivfflat-and-hnsw-with-pgvector-performance-analysis-on-diverse-datasets-e1626505bc9a
